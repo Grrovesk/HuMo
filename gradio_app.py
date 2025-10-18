@@ -577,7 +577,7 @@ if __name__ == "__main__":
     # 启动应用
     interface.launch(
         server_name="0.0.0.0",
-        share=False,
+        share=True,
         debug=True,
         show_error=True
     )
